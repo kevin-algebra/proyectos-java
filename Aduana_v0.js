@@ -4,9 +4,9 @@ let name= window.prompt("¿Podria proporcionarme su nombre?")
 
 let hour=window.prompt(`${name} , ¿Es usted ilegal?`);
 
-if (hour=si) {
+if (hour == "No") {
     console.log(`${name} , ¿Podria proporcionarme su carnet de identidad?`);
-} else if (no) {
+} else if (hour == "Si") {
     console.log(`${name} , Un oficial de migracion lo acompañara al proximo camion de deportacion`);
 } else {
      console.log(`${name} , responda mi pregunta por favor o sera llevado a la comisaria de
