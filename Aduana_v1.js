@@ -5,6 +5,7 @@ let name="Longino";
 
 let NIP=1000;
 
+let oportunidad = "No";
 
 let ala=(`${name} , ¿Es usted ilegal?`);
 
@@ -17,7 +18,7 @@ let hour= "baba";
 
 if (hour == "Si") {
     console.log(`${name} , ¿Podria proporcionarme el NIP de su carnet de identidad?`);
-    if (NIP.lenght== 9) {
+    if (NIP.lenght == 9) {
         console.log(`Todo en orden ${name} , de vuelta a casa!`);
     } else {
         console.log(`Lo siento señor ${name} , tendra que acompañarme a la comisaria...`)
@@ -30,7 +31,7 @@ if (hour == "Si") {
     
     if (hour == "Si") {
     console.log(`${name} , ¿Podria proporcionarme el NIP de su carnet de identidad?`);
-    if (name.lenght < 9 && name.lenght > 0) {
+    if (name.lenght == 8) {
         console.log(`Todo en orden ${name} , de vuelta a casa!`);
     } else {
         console.log(`Lo siento señor ${name} , tendra que acompañarme a la comisaria...`)
