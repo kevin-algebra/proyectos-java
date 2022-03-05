@@ -19,7 +19,7 @@ let hour= "ala";
 
 if (hour == "No") {
     console.log(`${name} , ¿Podria proporcionarme el NIP de su carnet de identidad?`);
-    if (NIP<99999999 && NIP>0) {
+    if (NIP<99999999 && NIP>11111111) {
         console.log(`Todo en orden ${name} , de vuelta a casa!`);
     } else {
         console.log(`Lo siento señor ${name} , tendra que acompañarme a la comisaria...`)
@@ -32,7 +32,7 @@ if (hour == "No") {
     
     if (oportunidad == "No") {
     console.log(`${name} , ¿Podria proporcionarme el NIP de su carnet de identidad?`);
-    if (NIP<99999999 && NIP>0) {
+    if (NIP<99999999 && NIP>11111111) {
         console.log(`Todo en orden ${name} , de vuelta a casa!`);
     } else {
         console.log(`Lo siento señor ${name} , tendra que acompañarme a la comisaria...`);
