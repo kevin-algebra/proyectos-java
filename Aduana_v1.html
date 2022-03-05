@@ -1,0 +1,91 @@
+<!DOCTYPE html> 
+
+<html>
+
+
+<body>
+
+
+<h1> Fundamentos de Java  </h1>
+
+
+<p> Buenas tardes , Aduana de USA. </p>
+
+<script> 
+
+
+
+let name= window.prompt("¿Podria proporcionarme su nombre?");
+
+let hour=window.prompt(`${name} , ¿Es usted ilegal?`);
+
+let NIP=12345678;
+
+
+ // Se puede añadir un condicional para hacer que si ponen un valor vacio a "name" les pida
+ // poner uno valido , si no arrestarlo y finalizar todo. 
+
+
+
+
+
+
+
+if (hour == "No") {
+    let NIP = window.prompt(`${name} , ¿Podria proporcionarme el NIP de su carnet de identidad?`);
+    if (NIP<99999999 && NIP>11111111) {
+        document.write(`Todo en orden ${name} , de vuelta a casa!`);
+    } else {
+        document.write(`Lo siento señor ${name} , tendra que acompañarme a la comisaria...`);
+    }
+} else if (hour == "Si") {
+    document.write(`${name} , Un oficial de migracion lo acompañara al proximo camion de deportacion`);
+} else {
+    let oportunidad = window.prompt(`${name} , responda mi pregunta por favor o sera llevado a la comisaria de
+    Houston Texas , le dare una segunda oportunidad de hacer las cosas por el buen camino.`);
+    
+    if (oportunidad == "No") {
+    let NIP = window.prompt(`${name} , ¿Podria proporcionarme el NIP de su carnet de identidad?`);
+    if (NIP<99999999 && NIP>11111111) {
+        document.write(`Todo en orden ${name} , de vuelta a casa!`);
+    } else {
+        document.write(`Lo siento señor ${name} , tendra que acompañarme a la comisaria...`);
+    }
+    
+    } else if (oportunidad == "Si") {
+    document.write(`${name} , Un oficial de migracion lo acompañara al proximo camion de deportacion`); 
+    } else {
+        document.write(`${name} queda arrestado.`);
+    }
+
+}
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+
+
+
+</body>
+
+
+
+
+
+
+
+</html>
