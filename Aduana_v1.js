@@ -35,13 +35,13 @@ if (hour == "No") {
     if (NIP<99999999 && NIP>0) {
         console.log(`Todo en orden ${name} , de vuelta a casa!`);
     } else {
-        console.log(`Lo siento señor ${name} , tendra que acompañarme a la comisaria...`)
+        console.log(`Lo siento señor ${name} , tendra que acompañarme a la comisaria...`);
     }
     
     } else if (oportunidad == "Si") {
     console.log(`${name} , Un oficial de migracion lo acompañara al proximo camion de deportacion`); 
     } else {
-        console.log(`${name} queda arrestado.`)
+        console.log(`${name} queda arrestado.`);
     }
 
 }
