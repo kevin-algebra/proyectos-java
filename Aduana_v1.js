@@ -17,7 +17,7 @@ let hour= "baba";
 
 if (hour == "Si") {
     console.log(`${name} , ¿Podria proporcionarme el NIP de su carnet de identidad?`);
-    if (NIP.lenght < 9 && NIP.lenght > 0) {
+    if (NIP.lenght== 9) {
         console.log(`Todo en orden ${name} , de vuelta a casa!`);
     } else {
         console.log(`Lo siento señor ${name} , tendra que acompañarme a la comisaria...`)
